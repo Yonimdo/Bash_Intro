@@ -67,7 +67,7 @@ wc <filename>                 # tells you how many lines, words and characters t
 chmod -options <filename>     # lets you change the read, write, and execute permissions on your files
 gzip <filename>               # compresses files
 gunzip <filename>             # uncompresses files compressed by gzip
-grep --help | grep "regex"    # Handy tool
+echo "A boy took a plane abroad" | grep -E '\s[aA]\w+'    # Handy tool
 grep <pattern> <filenames>    # looks for the string in the files
 grep -r <pattern> <dir>       # search recursively for pattern in directory
 find | grep "pattern"        # search files by that contain the pattern
